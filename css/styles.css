@@ -7,6 +7,7 @@ header {
   }
   h1 {
     text-align: center;
+    align-items: center;
     font-size: 100px;
     color: orangered;
     top: 322px;
@@ -36,4 +37,21 @@ nav {
     padding: 5px;
     border-bottom: 1px solid black;
   }
-  
+  p {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    position: static;
+    margin-bottom: 10px;
+    font-family: 'Coustard', serif;
+  }
+  #me {
+    background-image: url("../images/gases.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  h2{
+      text-align: center;
+      font-size: 80px;
+  }
