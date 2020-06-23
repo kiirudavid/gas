@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     align-items: center;
     font-size: 100px;
-    color: blueviolet;
+    color: black;
     top: 80px;
     position: absolute;
     left: 150px;
@@ -18,7 +18,7 @@ h1 {
 }
 .quote > p {
     top: 322px;
-    left: 45px;
+    left: 30px;
     color: white;
 }
 nav {
@@ -36,7 +36,7 @@ nav li a:hover {
   }
   
  nav li a {
-    color: yellowgreen;
+    color: rgb(105, 2, 2);
     text-decoration: none;
     font-size: 30px;
     padding: 5px;
@@ -49,7 +49,7 @@ p {
     position: absolute;
     margin-bottom: 10px;
     padding: 0px 10px 5px 0px;
-    font-family: 'Coustard', serif;
+    font-family: serif;
   }
 #me {
     background-image: url("../images/gas\ delivery.jpeg");
