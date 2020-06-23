@@ -5,7 +5,7 @@ header {
     background-size: cover;
     background-position: center;
   }
-  h1 {
+h1 {
     text-align: center;
     align-items: center;
     font-size: 100px;
@@ -15,6 +15,11 @@ header {
     left: 150px;
     font-family: Times, 'Times New Roman';
     font-weight: 900px;
+}
+.quote > p {
+    top: 322px;
+    left: 45px;
+    color: white;
 }
 nav {
     float: right;
@@ -26,18 +31,18 @@ nav {
     display: inline-block;
   }
   
-  nav li a:hover {
+nav li a:hover {
     border: 3px solid blue;
   }
   
-  nav li a {
+ nav li a {
     color: yellowgreen;
     text-decoration: none;
     font-size: 30px;
     padding: 5px;
     border-bottom: 1px solid black;
   }
-  p {
+p {
     text-align: center;
     font-size: 30px;
     color: white;
@@ -46,29 +51,29 @@ nav {
     padding: 0px 10px 5px 0px;
     font-family: 'Coustard', serif;
   }
-  #me {
+#me {
     background-image: url("../images/gas\ delivery.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center;
   }
-  h2{
+h2{
       text-align: center;
       font-size: 70px;
       color: black;
   }
-  #services {
+#services {
     background-image: url("../images/gas\ delivery.jpeg");
     height: 200vh;
     background-size: cover;
     background-position: center;
   }
-  h3 {
+h3 {
     text-align: center;
     font-size: 70px; 
     color:black;
   }
-  h4 {
+h4 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -82,10 +87,10 @@ nav {
       color: black;
       font-family: cursive,fantasy;
   }
-  *img {
+*img {
       float: inline-end;
   }
-  h5, h6 {
+h5, h6 {
     font: 1em sans-serif;
     font-size: 30px;
     text-align: center;
