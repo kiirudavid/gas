@@ -85,7 +85,7 @@ nav {
   *img {
       float: inline-end;
   }
-  h5 {
+  h5, h6 {
     font: 1em sans-serif;
     font-size: 30px;
     text-align: center;
