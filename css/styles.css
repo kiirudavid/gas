@@ -47,7 +47,7 @@ nav {
     font-family: 'Coustard', serif;
   }
   #me {
-    background-image: url("../images/gases.jpeg");
+    background-image: url("../images/gas\ delivery.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -55,4 +55,14 @@ nav {
   h2{
       text-align: center;
       font-size: 70px;
+  }
+  #services {
+    background-image: url("../images/gas\ delivery.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  h3 {
+    text-align: center;
+    font-size: 70px; 
   }
