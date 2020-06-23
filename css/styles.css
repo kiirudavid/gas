@@ -9,11 +9,11 @@ header {
     text-align: center;
     align-items: center;
     font-size: 100px;
-    color: orangered;
-    top: 322px;
-    position: relative;
-    left: 196px;
-    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    top: 80px;
+    position: absolute;
+    left: 150px;
+    font-family: Times, 'Times New Roman';
     font-weight: 900px;
 }
 nav {
