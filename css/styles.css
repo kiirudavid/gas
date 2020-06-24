@@ -111,19 +111,19 @@ h5 {
     float: left;
     align-items: center;
     text-align: center;
-    color: black;
+    color: white;
   }
 .second {
     float: right;
     text-align: center;
     align-items: center;
-    color: black;
+    color: white;
 }
 .third {
   float: center;
   align-items: center;
   text-align: center;
-  color: black;
+  color: white;
 }
 .forth {
   float: left;
@@ -141,13 +141,13 @@ h5 {
 }
 .products > p {
   font-size: 25px;
-  color:green;
+  color:rgb(39, 1, 1);
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 .accessories > p {
   font-size: 25px;
-  color: green;
+  color: rgb(39, 1, 1);
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
@@ -164,7 +164,7 @@ footer {
 #info > p {
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
-  color: blue;
+  color: rgb(9, 253, 9);
 }
 h6 {
   font-size: 25px;
