@@ -6,7 +6,7 @@ body {
   font-size: 19px;
 }
 header {
-    background-image: url("./images/");
+    background-image: url("../images/gasoline.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -22,55 +22,49 @@ h1 {
     font-family: Times, 'Times New Roman';
     font-weight: 900px;
 }
-.quote{
-
+.quote > p {
       left: 150px;
-      color: white;
-      font-size: 30px;
+      color: blue;
+      font-size: 40px;
       text-align: center;
 }
 nav {
     float: right;
     list-style: none;
     margin-top: 35px;
-  }
-  
-  nav li {
+}
+nav li {
     display: inline-block;
-  }
-  
+}
 nav li a:hover {
     border: 3px solid blue;
-  }
-  
- nav li a {
-    color: rgb(105, 2, 2);
+}
+nav li a {
+    color: yellowgreen;
     text-decoration: none;
     font-size: 30px;
     padding: 5px;
     border-bottom: 1px solid black;
-  }
+}
 .about > p {
     text-align: center;
     font-size: 30px;
-    color: green;
-    position: absolute;
-    align-items: center;
+    color: blue;
     padding-right: 10px;
     padding-left: 15px;
-    font-family: monospace;
+    font-family: Helvetica, sans-serif;
     font-weight: bolder;
   }
 #me {
-    background-image: url("../images/gas\ delivery.jpeg");
-    height: 100vh;
+    background-image: url("../i");
+    height: 80vh;
     background-size: cover;
     background-position: center;
   }
 h2{
       text-align: center;
       font-size: 70px;
-      color: black;
+      color:brown;
       top: 200px;
 
   }
