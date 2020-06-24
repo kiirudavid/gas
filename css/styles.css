@@ -103,21 +103,31 @@ h5, h6 {
 }
 .first {
     float: left;
+    align-items: center;
+    text-align: center;
   }
 .second {
     float: right;
+    text-align: center;
+    align-items: center;
 }
 .third {
   float: center;
-  padding-left: 500px;
+  padding-left: 400px;
+  align-items: center;
+  text-align: center;
 }
 .forth {
   float: left;
+  align-items: center;
+  text-align: center;
 }
 .fifth {
   float: right;
-/* }
-footer{
+  align-items: center;
+  text-align: center; 
+}
+/* footer{
   background-image: url("../images/gas\ delivery.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,8 +136,12 @@ footer{
   color: black;
   z-index: auto;
   opacity: 0.8;
-   */
-}
+} */
 h6 {
   padding-top: 0px;
+}
+p{
+  color: black;
+  font:italic bold 20px 'Open Sans',serif;
+  text-align: center;
 }
