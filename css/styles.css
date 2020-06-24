@@ -65,7 +65,7 @@ h2{
       font-size: 70px;
       color: rgb(46, 1, 1);
       top: 200px;
-
+      font-style: italic;
   }
 #services {
     background-image: url("../images/gas\ delivery.jpeg");
@@ -78,6 +78,7 @@ h3 {
     text-align: center;
     font-size: 70px; 
     color:rgb(46, 1, 1);
+    font-style: italic;
   }
 h4 {
     display: flex;
@@ -96,18 +97,15 @@ h4 {
   }
 #products {
   background-image: url("../images/cylindercover.jpg");
-  height: 200vh;
+  height: 400vh;
   background-size: cover;
   background-position: center;
 }
-h5, h6 {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    align-items: center;
-    color: white;
-    font-size: 30px;
-    font-style: italic;
+h5 {
+  text-align: center;
+  color: rgb(46, 1, 1);
+  font-size: 70px;
+  font-style: italic;
 }
 .first {
     float: left;
@@ -136,7 +134,19 @@ h5, h6 {
   text-align: center; 
   padding-right: 200px;
 }
-footer{
+.products > p {
+  font-size: 25px;
+  color: rgb(1, 46, 1);
+  font-family: Times, 'Times New Roman';
+  text-align: left;
+}
+.accessories > p {
+  font-size: 25px;
+  color: rgb(1, 46, 1);
+  font-family: Times, 'Times New Roman';
+  text-align: left;
+}
+/* footer{
   background-image: url("../images/gas\ delivery.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,5 +160,5 @@ p{
   
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
-}
+} */
 
