@@ -82,13 +82,10 @@ nav {
       color: black;
       font-family: cursive,fantasy;
   }
-  *img {
-      float: inline-end;
-  }
-  h5 {
+h5 {
     font: 1em sans-serif;
     font-size: 30px;
     text-align: center;
     color: cornsilk;
     font-style: italic;
-  }
+}
