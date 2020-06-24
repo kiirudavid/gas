@@ -27,6 +27,7 @@ h1 {
       color: blue;
       font-size: 40px;
       text-align: center;
+      font-family: Times, 'Times New Roman';
 }
 nav {
     float: right;
@@ -49,14 +50,12 @@ nav li a {
 .about > p {
     text-align: center;
     font-size: 30px;
-    color: blue;
-    padding-right: 10px;
-    padding-left: 15px;
-    font-family: Helvetica, sans-serif;
+    color: black;
+    font-family: Times, 'Times New Roman';
     font-weight: bolder;
   }
 #me {
-    background-image: url("../i");
+    background-image: url("../images/siliconcylinder.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -64,13 +63,13 @@ nav li a {
 h2{
       text-align: center;
       font-size: 70px;
-      color:brown;
+      color: rgb(46, 1, 1);
       top: 200px;
 
   }
 #services {
     background-image: url("../images/gas\ delivery.jpeg");
-    height: 480vh;
+    height: 200vh;
     background-size: cover;
     background-position: center;
   
@@ -78,23 +77,29 @@ h2{
 h3 {
     text-align: center;
     font-size: 70px; 
-    color:black;
+    color:rgb(46, 1, 1);
   }
 h4 {
     display: flex;
     flex-direction: column;
     width: auto;
     align-items: center;
-    color: white;
-    font-size: 30px;
+    color:rgb(53, 88, 1);
+    font-size: 35px;
     font-style: italic;
   }
-#services > p {
-      font-size: 20px;
+.brands > p {
+      font-size: 25px;
       color: black;
-      font-family: cursive,fantasy;
+      font-family: Times, 'Times New Roman';
+      text-align: left;
   }
-
+#products {
+  background-image: url("../images/cylindercover.jpg");
+  height: 200vh;
+  background-size: cover;
+  background-position: center;
+}
 h5, h6 {
     display: flex;
     flex-direction: column;
