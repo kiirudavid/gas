@@ -92,12 +92,12 @@ h4 {
 .brands > p {
       font-size: 25px;
       color: black;
-      font-family: Times, 'Times New Roman';
+      font: italic bold Times, 'Times New Roman';
       text-align: left;
   }
 #products {
   background-image: url("../images/cylindercover.jpg");
-  height: 400vh;
+  height: 385vh;
   background-size: cover;
   background-position: center;
 }
@@ -111,39 +111,44 @@ h5 {
     float: left;
     align-items: center;
     text-align: center;
+    color: black;
   }
 .second {
     float: right;
     text-align: center;
     align-items: center;
+    color: black;
 }
 .third {
   float: center;
   align-items: center;
   text-align: center;
+  color: black;
 }
 .forth {
   float: left;
   align-items: center;
   text-align: center;
   padding-left: 100px;
+  color: black;
 }
 .fifth {
   float: right;
   align-items: center;
   text-align: center; 
   padding-right: 200px;
+  color: black;
 }
 .products > p {
   font-size: 25px;
-  color: rgb(1, 46, 1);
-  font-family: Times, 'Times New Roman';
+  color:rgb(1, 1, 51);
+  font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 .accessories > p {
   font-size: 25px;
-  color: rgb(1, 46, 1);
-  font-family: Times, 'Times New Roman';
+  color: rgb(1, 1, 51);
+  font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 /* footer{
