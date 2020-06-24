@@ -1,5 +1,5 @@
 body {
-  background-color:black ;
+  background-image: url("../images/background.jpeg");
   color: #FFF0F5	;
   margin: 0 auto;
   box-sizing: border-box;
@@ -15,7 +15,7 @@ h1 {
     text-align: center;
     align-items: center;
     font-size: 100px;
-    color: black;
+    color:blue;
     top: 80px;
     position: absolute;
     left: 150px;
@@ -24,7 +24,7 @@ h1 {
 }
 .quote > p {
       left: 150px;
-      color: blue;
+      color: black;
       font-size: 40px;
       text-align: center;
       font-family: Times, 'Times New Roman';
@@ -41,11 +41,11 @@ nav li a:hover {
     border: 3px solid blue;
 }
 nav li a {
-    color: yellowgreen;
+    color: black;
     text-decoration: none;
     font-size: 30px;
     padding: 5px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid green;
 }
 .about > p {
     text-align: center;
@@ -55,7 +55,7 @@ nav li a {
     font-weight: bolder;
   }
 #me {
-    background-image: url("../images/siliconcylinder.jpg");
+    background-image: url("../images/cylindercover.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -85,7 +85,7 @@ h4 {
     flex-direction: column;
     width: auto;
     align-items: center;
-    color:rgb(53, 88, 1);
+    color:blue;
     font-size: 35px;
     font-style: italic;
   }
@@ -111,43 +111,43 @@ h5 {
     float: left;
     align-items: center;
     text-align: center;
-    color: white;
-  }
+    color: blue;
+}
 .second {
     float: right;
     text-align: center;
     align-items: center;
-    color: white;
+    color: blue;
 }
 .third {
   float: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: blue;
 }
 .forth {
   float: left;
   align-items: center;
   text-align: center;
   padding-left: 100px;
-  color: whitesmoke;
+  color: blue;
 }
 .fifth {
   float: right;
   align-items: center;
   text-align: center; 
   padding-right: 200px;
-  color: whitesmoke;
+  color: blue;
 }
 .products > p {
   font-size: 25px;
-  color:rgb(39, 1, 1);
+  color:black;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 .accessories > p {
   font-size: 25px;
-  color: rgb(39, 1, 1);
+  color: black;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
