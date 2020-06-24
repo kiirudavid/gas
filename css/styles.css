@@ -68,7 +68,7 @@ h2{
   }
 #services {
     background-image: url("../images/gas\ delivery.jpeg");
-    height: 250vh;
+    height: 550vh;
     background-size: cover;
     background-position: center;
   }
@@ -93,11 +93,26 @@ h4 {
   }
 *img {
       float: inline-end;
-  }
+}
 h5, h6 {
     font: 1em sans-serif;
     font-size: 30px;
     text-align: center;
     color: white;
     font-style: italic;
+}
+.first {
+    float: left;
   }
+.second {
+    float: center;
+}
+.third {
+  float: right;
+}
+.forth {
+  float: left;
+}
+.fifth {
+  float: right;
+}
