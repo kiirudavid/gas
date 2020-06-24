@@ -130,24 +130,24 @@ h5 {
   align-items: center;
   text-align: center;
   padding-left: 100px;
-  color: black;
+  color: whitesmoke;
 }
 .fifth {
   float: right;
   align-items: center;
   text-align: center; 
   padding-right: 200px;
-  color: black;
+  color: whitesmoke;
 }
 .products > p {
   font-size: 25px;
-  color:rgb(1, 1, 51);
+  color:green;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 .accessories > p {
   font-size: 25px;
-  color: rgb(1, 1, 51);
+  color: green;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
