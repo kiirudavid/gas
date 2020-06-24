@@ -151,8 +151,8 @@ h5 {
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
-/* footer{
-  background-image: url("../images/gas\ delivery.jpeg");
+footer{
+  background-image: url("../image");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4em;
@@ -165,5 +165,5 @@ p{
   
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
-} */
+}
 
