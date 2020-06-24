@@ -68,7 +68,7 @@ h2{
   }
 #services {
     background-image: url("../images/gas\ delivery.jpeg");
-    height: 550vh;
+    height: 480vh;
     background-size: cover;
     background-position: center;
   }
@@ -91,15 +91,15 @@ h4 {
       color: black;
       font-family: cursive,fantasy;
   }
-*img {
-      float: inline-end;
-}
+
 h5, h6 {
-    font: 1em sans-serif;
-    font-size: 30px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
     color: white;
-    font-style: italic bold;
+    font-size: 30px;
+    font-style: italic;
 }
 .first {
     float: left;
@@ -120,11 +120,13 @@ h5, h6 {
   float: left;
   align-items: center;
   text-align: center;
+  padding-left: 100px;
 }
 .fifth {
   float: right;
   align-items: center;
   text-align: center; 
+  padding-right: 200px;
 }
 /* footer{
   background-image: url("../images/gas\ delivery.jpeg");
@@ -137,7 +139,7 @@ h5, h6 {
   opacity: 0.8;
 } */
 p{
-  color: black;
+  color: green;
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
 }
