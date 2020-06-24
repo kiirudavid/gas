@@ -97,7 +97,7 @@ h4 {
   }
 #products {
   background-image: url("../images/gaspump.jpeg");
-  height: 385vh;
+  height: 390vh;
   background-size: cover;
   background-position: center;
 }
@@ -151,8 +151,8 @@ h5 {
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
-footer{
-  background-image: url("../image");
+footer {
+  background-image: url("../images/graphics.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4em;
@@ -161,9 +161,14 @@ footer{
   z-index: auto;
   opacity: 0.8;
 }
-p{
-  
+#info > p {
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
+  color: blue;
 }
-
+h6 {
+  font-size: 25px;
+  color: whitesmoke;
+  font: italic bold Times, 'Times New Roman';
+  text-align: center;
+}
