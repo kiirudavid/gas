@@ -6,7 +6,7 @@ body {
   font-size: 19px;
 }
 header {
-    background-image: url("../images/gas\ delivery.jpeg");
+    background-image: url("./images/");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -22,8 +22,8 @@ h1 {
     font-family: Times, 'Times New Roman';
     font-weight: 900px;
 }
-.quote > p {
-      top:450px;
+.quote{
+
       left: 150px;
       color: white;
       font-size: 30px;
@@ -79,6 +79,7 @@ h2{
     height: 480vh;
     background-size: cover;
     background-position: center;
+  
   }
 h3 {
     text-align: center;
@@ -147,7 +148,8 @@ footer{
   opacity: 0.8;
 }
 p{
-  color: green;
+  
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
 }
+
