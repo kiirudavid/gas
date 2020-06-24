@@ -105,14 +105,29 @@ h5, h6 {
     float: left;
   }
 .second {
-    float: center;
+    float: right;
 }
 .third {
-  float: right;
+  float: center;
+  padding-left: 500px;
 }
 .forth {
   float: left;
 }
 .fifth {
   float: right;
+/* }
+footer{
+  background-image: url("../images/gas\ delivery.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4em;
+  text-align:center;
+  color: black;
+  z-index: auto;
+  opacity: 0.8;
+   */
+}
+h6 {
+  padding-top: 0px;
 }
