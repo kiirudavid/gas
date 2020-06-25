@@ -1,12 +1,12 @@
 body {
-  background-image: url("../images/background.jpeg");
+  background-image: url("../images/gaspump.jpeg");
   color: #FFF0F5	;
   margin: 0 auto;
   box-sizing: border-box;
   font-size: 19px;
 }
 header {
-    background-image: url("../images/gasoline.jpg");
+    background-image: url("../images/gas\ delivery.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -45,7 +45,7 @@ nav li a {
     text-decoration: none;
     font-size: 30px;
     padding: 5px;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid white;
 }
 .about > p {
     text-align: center;
@@ -55,7 +55,7 @@ nav li a {
     font-weight: bolder;
   }
 #me {
-    background-image: url("../images/cylindercover.jpg");
+    background-image: url("../images/transportation.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -63,7 +63,7 @@ nav li a {
 h2{
       text-align: center;
       font-size: 70px;
-      color: rgb(46, 1, 1);
+      color: blue;
       top: 200px;
       font-style: italic;
   }
@@ -77,7 +77,7 @@ h2{
 h3 {
     text-align: center;
     font-size: 70px; 
-    color:rgb(46, 1, 1);
+    color:blue;
     font-style: italic;
   }
 h4 {
@@ -96,14 +96,14 @@ h4 {
       text-align: left;
   }
 #products {
-  background-image: url("../images/gaspump.jpeg");
-  height: 390vh;
+  background-image: url("../images/gasoline.jpeg");
+  height: 370vh;
   background-size: cover;
   background-position: center;
 }
 h5 {
   text-align: center;
-  color: rgb(46, 1, 1);
+  color: blue;
   font-size: 70px;
   font-style: italic;
 }
@@ -111,64 +111,75 @@ h5 {
     float: left;
     align-items: center;
     text-align: center;
-    color: blue;
+    color: black;
 }
 .second {
     float: right;
     text-align: center;
     align-items: center;
-    color: blue;
+    color: black;
 }
 .third {
   float: center;
   align-items: center;
   text-align: center;
-  color: blue;
+  color: black;
 }
 .forth {
   float: left;
   align-items: center;
   text-align: center;
   padding-left: 100px;
-  color: blue;
+  color: black;
 }
 .fifth {
   float: right;
   align-items: center;
   text-align: center; 
   padding-right: 200px;
-  color: blue;
+  color: black;
 }
 .products > p {
   font-size: 25px;
-  color:black;
+  color: white;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 .accessories > p {
   font-size: 25px;
-  color: black;
+  color: white;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 footer {
-  background-image: url("../images/graphics.jpg");
+  background-image: url("../images/gas\ delivery.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 4em;
   text-align:center;
   color: black;
-  z-index: auto;
-  opacity: 0.8;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif
 }
 #info > p {
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
+<<<<<<< HEAD
   color:black;
 }
 h6 {
   font-size: 25px;
   color: blue;
+=======
+  color: blue;
+}
+h6 {
+  font-size: 25px;
+  color:black;
+>>>>>>> 83c9882a903358cc2e2b78816d34cac312df8796
   font: italic bold Times, 'Times New Roman';
   text-align: center;
+}
+*img {
+  background-color: none;
 }
