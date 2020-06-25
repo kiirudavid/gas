@@ -164,11 +164,11 @@ footer {
 #info > p {
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
-  color: rgb(9, 253, 9);
+  color:black;
 }
 h6 {
   font-size: 25px;
-  color: whitesmoke;
+  color: blue;
   font: italic bold Times, 'Times New Roman';
   text-align: center;
 }
