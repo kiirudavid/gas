@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/gaspump.jpeg");
+  background-color: white;
   color: #FFF0F5	;
   margin: 0 auto;
   box-sizing: border-box;
@@ -55,7 +55,7 @@ nav li a {
     font-weight: bolder;
   }
 #me {
-    background-image: url("../images/transportation.jpg");
+    background-image: url("../images/gasoline.jpeg");
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -96,7 +96,7 @@ h4 {
       text-align: left;
   }
 #products {
-  background-image: url("../images/gasoline.jpeg");
+  background-image: url("../images/transportation.jpg");
   height: 370vh;
   background-size: cover;
   background-position: center;
@@ -141,13 +141,13 @@ h5 {
 }
 .products > p {
   font-size: 25px;
-  color: white;
+  color: blue;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 .accessories > p {
   font-size: 25px;
-  color: white;
+  color: blue;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
@@ -164,22 +164,11 @@ footer {
 #info > p {
   font:italic bold 20px 'Open Sans',serif;
   text-align: center;
-<<<<<<< HEAD
   color:black;
 }
 h6 {
   font-size: 25px;
   color: blue;
-=======
-  color: blue;
-}
-h6 {
-  font-size: 25px;
-  color:black;
->>>>>>> 83c9882a903358cc2e2b78816d34cac312df8796
   font: italic bold Times, 'Times New Roman';
   text-align: center;
-}
-*img {
-  background-color: none;
 }
