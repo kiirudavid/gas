@@ -141,13 +141,13 @@ h5 {
 }
 .products > p {
   font-size: 25px;
-  color: white;
+  color: blue;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
 .accessories > p {
   font-size: 25px;
-  color: white;
+  color: blue;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
