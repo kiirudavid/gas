@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     align-items: center;
     font-size: 100px;
-    color:blue;
+    color:black;
     top: 80px;
     position: absolute;
     left: 150px;
@@ -20,8 +20,8 @@ h1 {
 }
 .quote p {
       left: 150px;
-      color: black;
-      font-size: 40px;
+      color: white;
+      font-size: 35px;
       text-align: center;
       font-family: Times, 'Times New Roman';
 }
@@ -34,10 +34,10 @@ nav li {
     display: inline-block;
 }
 nav li a:hover {
-    border: 3px solid blue;
+    border: 3px solid brown;
 }
 nav li a {
-    color: black;
+    color:blue;
     text-decoration: none;
     font-size: 30px;
     padding: 5px;
@@ -46,7 +46,7 @@ nav li a {
 .about > p {
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: blue;
     font-family: Times, 'Times New Roman';
     font-weight: bolder;
 }
@@ -61,19 +61,19 @@ nav li a {
 h2 {
       text-align: center;
       font-size: 70px;
-      color: blue;
+      color: black;
       top: 200px;
       font-style: italic;
 }
 h3 {
     text-align: center;
     font-size: 70px; 
-    color:blue;
+    color: blueviolet;
     font-style: italic;
 }
 .brands p {
       font-size: 25px;
-      color: black;
+      color: blue;
       font: italic bold Times, 'Times New Roman';
       text-align: left;
 }
@@ -111,7 +111,7 @@ h3 {
 }
 .products > p {
   font-size: 25px;
-  color: blue;
+  color:blue;
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
@@ -152,6 +152,7 @@ h4 {
 }
 .info p {
   margin-bottom: 40px;
+  font-size: 20px;
 }
 .input-row {
   justify-content: space-between;
