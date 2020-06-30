@@ -1,0 +1,215 @@
+body {
+  background: #55ffe5;
+  margin: 8px;
+  padding: 0;
+  display: block;
+}
+h1 {
+    text-align: center;
+    align-items: center;
+    font-size: 100px;
+    color:black;
+    top: 80px;
+    position: absolute;
+    left: 150px;
+    font-family: Times, 'Times New Roman';
+    font-weight: 900px;
+}
+.quote {
+  background: linear-gradient(to right, #9c27b0, #8ecdff); 
+  background-size: 100vh;
+}
+.quote p {
+      color: white;
+      font-size: 35px;
+      text-align: center;
+      font-family: Times, 'Times New Roman';
+}
+nav {
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+}
+nav li {
+    display: inline-block;
+}
+nav li a:hover {
+    border: 3px solid brown;
+}
+nav li a {
+    color:blue;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+#me {
+  background: linear-gradient(to right,  #8ecdff, #55ffe5);
+  background-size: 100vh;
+}
+.about > p {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    font-family: Times, 'Times New Roman';
+    display: flex;
+}
+#products {
+  background: #ffffff;
+  background-size: 100%;
+}
+.customers > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 30px;
+}
+ img {
+  width: 180px;
+  height: 130px;
+}  
+h2 {
+      text-align: center;
+      font-size: 70px;
+      color: black;
+      top: 200px;
+      font-style: italic;
+}
+h3 {
+    text-align: center;
+    font-size: 70px; 
+    color: blueviolet;
+    font-style: italic;
+}
+.brands p {
+      font-size: 25px;
+      color: blue;
+      font: italic bold Times, 'Times New Roman';
+      text-align: left;
+}
+.first {
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+.second {
+    float: right;
+    text-align: center;
+    align-items: center;
+}
+.third {
+  float: center;
+  align-items: center;
+  text-align: center;
+}
+.forth {
+  float: left;
+  align-items: center;
+  text-align: center;
+  padding-left: 100px;
+}
+.fifth {
+  float: right;
+  align-items: center;
+  text-align: center; 
+  padding-right: 200px;
+}
+.sixth {
+  float: center;
+  align-items: center;
+  text-align: center;
+}
+.products > p {
+  font-size: 25px;
+  color:blue;
+  font: italic bold Times, 'Times New Roman';
+  text-align: left;
+}
+.accessories  p {
+  font-size: 25px;
+  color: blue;
+  font: italic bold Times, 'Times New Roman';
+  text-align: left;
+}
+footer {
+  background: #55ffe5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+.info {
+ width: 80%;
+ margin: 14px;
+
+}
+.contact-box {
+  background: #ffffff;
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #1c00b5;
+  color: #ffffff;
+}
+h4 {
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times;
+  font-size: 30px;
+}
+.info p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.input-row {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 20px;
+}
+.input-row input-group {
+  flex-basis: 45%;
+}
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  outline: none;
+  padding-bottom: 50px;
+}
+textarea{
+  width: 100%;
+  border: 1px solid #cccccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label{
+  margin-bottom: 6px;
+  display: block;
+  color: #1c00b5;
+}
+button{
+  background: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px8px rgba(28,0,181,0.3);
+}
+.contact-left h3{
+  color: #1c00b5;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.media img {
+  width: 100px;
+  height: 80px;
+} 
