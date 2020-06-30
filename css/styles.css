@@ -54,6 +54,9 @@ nav li a {
   background: #ffffff;
   background-size: 100%;
 }
+.services p {
+  font-size: 30px;
+}
  img {
   width: 180px;
   height: 130px;
