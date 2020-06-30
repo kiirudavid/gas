@@ -1,16 +1,8 @@
 body {
-  background-color: white;
-  color: #FFF0F5	;
-  margin: 0 auto;
-  box-sizing: border-box;
-  font-size: 19px;
+  background: linear-gradient(to right, #9c27b0, #8ecdff); 
+  margin: 0;
+  padding: 0;
 }
-header {
-    background-image: url("../images/gas\ delivery.jpeg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
 h1 {
     text-align: center;
     align-items: center;
@@ -54,39 +46,24 @@ nav li a {
     font-family: Times, 'Times New Roman';
     font-weight: bolder;
   }
-#me {
-    background-image: url("../images/gasoline.jpeg");
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-  }
-h2{
+#products {
+  background: #ffffff;
+}
+.products img {
+  width: 200px;
+  height: 200px;
+}  
+h2 {
       text-align: center;
       font-size: 70px;
       color: blue;
       top: 200px;
       font-style: italic;
   }
-#services {
-    background-image: url("../images/gas\ delivery.jpeg");
-    height: 200vh;
-    background-size: cover;
-    background-position: center;
-  
-  }
 h3 {
     text-align: center;
     font-size: 70px; 
     color:blue;
-    font-style: italic;
-  }
-h4 {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    align-items: center;
-    color:blue;
-    font-size: 35px;
     font-style: italic;
   }
 .brands > p {
@@ -95,49 +72,45 @@ h4 {
       font: italic bold Times, 'Times New Roman';
       text-align: left;
   }
-#products {
-  background-image: url("../images/transportation.jpg");
-  height: 370vh;
-  background-size: cover;
-  background-position: center;
-}
-h5 {
-  text-align: center;
-  color: blue;
-  font-size: 70px;
-  font-style: italic;
+.branda img {
+  width: 200px;
+  height: 200px;
+}  
+.accessories img {
+  width: 150px;
+  height: 120px;
 }
 .first {
     float: left;
     align-items: center;
     text-align: center;
-    color: black;
 }
 .second {
     float: right;
     text-align: center;
     align-items: center;
-    color: black;
 }
 .third {
   float: center;
   align-items: center;
   text-align: center;
-  color: black;
 }
 .forth {
   float: left;
   align-items: center;
   text-align: center;
   padding-left: 100px;
-  color: black;
 }
 .fifth {
   float: right;
   align-items: center;
   text-align: center; 
   padding-right: 200px;
-  color: black;
+}
+.sixth {
+  float: center;
+  align-items: center;
+  text-align: center;
 }
 .products > p {
   font-size: 25px;
@@ -152,23 +125,39 @@ h5 {
   text-align: left;
 }
 footer {
-  background-image: url("../images/gas\ delivery.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align:center;
-  color: black;
-  box-sizing: border-box;
-  outline: none;
-  font-family: 'Roboto', sans-serif
+  background: #55ffe5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
 }
-#info > p {
-  font:italic bold 20px 'Open Sans',serif;
-  text-align: center;
-  color:black;
+.info {
+ width: 80%;
+ margin: 14px;
+ 
 }
-h6 {
-  font-size: 25px;
-  color: blue;
-  font: italic bold Times, 'Times New Roman';
-  text-align: center;
+.contact-box {
+  background: #ffffff;
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #1c00b5;
+  color: #ffffff;
+}
+h4 {
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times;
+  font-size: 30px;
+}
+.info p {
+  margin-bottom: 40px;
+}
+.input-row {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 20px;
 }
