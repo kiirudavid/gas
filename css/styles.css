@@ -1,7 +1,8 @@
 body {
-  background: linear-gradient(to right, #9c27b0, #8ecdff); 
-  margin: 0;
+  background: #55ffe5;
+  margin: 8px;
   padding: 0;
+  display: block;
 }
 h1 {
     text-align: center;
@@ -14,7 +15,10 @@ h1 {
     font-family: Times, 'Times New Roman';
     font-weight: 900px;
 }
-.quote > p {
+.quote {
+  background: linear-gradient(to right, #9c27b0, #8ecdff); 
+}
+.quote p {
       left: 150px;
       color: black;
       font-size: 40px;
@@ -45,13 +49,14 @@ nav li a {
     color: black;
     font-family: Times, 'Times New Roman';
     font-weight: bolder;
-  }
+}
 #products {
   background: #ffffff;
+  background-size: 100%;
 }
-.products img {
-  width: 200px;
-  height: 200px;
+ img {
+  width: 180px;
+  height: 130px;
 }  
 h2 {
       text-align: center;
@@ -59,26 +64,18 @@ h2 {
       color: blue;
       top: 200px;
       font-style: italic;
-  }
+}
 h3 {
     text-align: center;
     font-size: 70px; 
     color:blue;
     font-style: italic;
-  }
-.brands > p {
+}
+.brands p {
       font-size: 25px;
       color: black;
       font: italic bold Times, 'Times New Roman';
       text-align: left;
-  }
-.branda img {
-  width: 200px;
-  height: 200px;
-}  
-.accessories img {
-  width: 150px;
-  height: 120px;
 }
 .first {
     float: left;
@@ -118,7 +115,7 @@ h3 {
   font: italic bold Times, 'Times New Roman';
   text-align: left;
 }
-.accessories > p {
+.accessories  p {
   font-size: 25px;
   color: blue;
   font: italic bold Times, 'Times New Roman';
@@ -160,4 +157,46 @@ h4 {
   justify-content: space-between;
   display: flex;
   margin-bottom: 20px;
+}
+.input-row input-group {
+  flex-basis: 45%;
+}
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  outline: none;
+  padding-bottom: 50px;
+}
+textarea{
+  width: 100%;
+  border: 1px solid #cccccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label{
+  margin-bottom: 6px;
+  display: block;
+  color: #1c00b5;
+}
+button{
+  background: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px8px rgba(28,0,181,0.3);
+}
+.contact-left h3{
+  color: #1c00b5;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.media img {
+  width: 100px;
+  height: 80px;
 }
