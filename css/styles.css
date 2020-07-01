@@ -14,6 +14,21 @@ body {
       left: 150px;
       font-family: Times, 'Times New Roman';
 }
+.quote {
+    background: linear-gradient(to right, #9c27b0, #8ecdff); 
+
+  }
+  .quote p {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        font-family: Times, 'Times New Roman';
+  }
+  nav {
+      float: right;
+      list-style: none;
+      margin-top: 35px;
+  }
 nav {
     float: right;
     list-style: none;
@@ -34,7 +49,6 @@ nav li a {
 }
 #me {
   background: linear-gradient(to right,  #8ecdff, #55ffe5);
-  background-size: 100vh;
 }
 .about p {
     text-align: center;
